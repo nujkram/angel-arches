@@ -226,4 +226,23 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Video Modal Handler
+   */
+  const videoModal = document.getElementById('videoModal');
+  if (videoModal) {
+    const video = videoModal.querySelector('video');
+    
+    // Play video when modal opens
+    videoModal.addEventListener('shown.bs.modal', () => {
+      video.play();
+    });
+    
+    // Pause video when modal closes
+    videoModal.addEventListener('hidden.bs.modal', () => {
+      video.pause();
+      video.currentTime = 0; // Reset video to beginning
+    });
+  }
+
 })();

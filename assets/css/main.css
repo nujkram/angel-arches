@@ -1491,3 +1491,48 @@ html, body {
   max-width: 100%;
   height: auto;
 }
+
+.hero .hero-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.hero .btn-play {
+  padding: 15px 30px;
+  background: var(--accent-color);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.hero .btn-play:hover {
+  background: color-mix(in srgb, var(--accent-color), black 20%);
+  transform: scale(1.05);
+}
+
+.hero .btn-play i {
+  margin-right: 8px;
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+
+#videoModal .modal-content {
+  background-color: #000;
+  border: none;
+}
+
+#videoModal .modal-header {
+  border-bottom: none;
+  padding: 1rem 1rem 0.5rem;
+}
+
+#videoModal .modal-title {
+  color: #fff;
+}
+
+#videoModal .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}

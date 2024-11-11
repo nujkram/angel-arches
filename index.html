@@ -60,6 +60,13 @@
 
       <img src="assets/img/hero-bg.jpg" alt="">
 
+      <div class="hero-content" data-aos="fade-up">
+        <button class="btn btn-play" data-bs-toggle="modal" data-bs-target="#videoModal">
+          <i class="bi bi-play-circle"></i>
+          Watch Video
+        </button>
+      </div>
+
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
@@ -68,20 +75,24 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile-img.jfif" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>UI/UX Designer &amp; Web Developer.</h2>
+            <h2>FORMER PANAY MUNICIPAL TOURISM OFFICER</h2>
             <p class="fst-italic py-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              5th Place, Tourism Champions Challenge (Department of Tourism and Tourism Infrastructure Enterprise Zone Authority); Grand Winner, Capiz Regional Tourism  Expo 2023 - Best Booth Competition;
+
+              Promoted Pusò as an experiential tourism product of the Municipality of Panay'
+              
+              2nd Place, Maragtas sa Capisnon 2023 - Float Competition;
+              
+              3rd Place, Paskwa sang Maragtas 2023 - Giant Parol Competition
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -97,10 +108,6 @@
                 </ul>
               </div>
             </div>
-            <p class="py-3">
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
-            </p>
           </div>
         </div>
 
@@ -159,7 +166,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>KASADYAHAN SANG KABATAAN, PAGPASANYOG SANG TURISMO KAG PAGPRESERBAR SANG KULTURANG PAN-AYANON</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -177,7 +184,6 @@
               <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#serviceModal1">
                 <h3>Pagpasanyog sang Turismo</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
               <img src="assets/img/services/service-1.jpg" alt="Pagpasanyog sang Turismo" class="img-fluid">
             </div>
           </div><!-- End Service Item -->
@@ -193,7 +199,6 @@
               <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#serviceModal2">
                 <h3>Pagpalangga sa mga Katigulangan</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
               <img src="assets/img/services/service-2.jpg" alt="Pagpalangga sa mga Katigulangan" class="img-fluid">
             </div>
           </div><!-- End Service Item -->
@@ -209,7 +214,6 @@
               <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#serviceModal3">
                 <h3>Prayoridad and mga Kabataan</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
               <img src="assets/img/services/service-3.jpg" alt="Prayoridad and mga Kabataan" class="img-fluid">
             </div>
           </div><!-- End Service Item -->
@@ -367,6 +371,26 @@
         </div>
         <div class="modal-body">
           <img src="assets/img/services/service-3.jpg" alt="Prayoridad and mga Kabataan" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="videoModalLabel">Angel Arches Teaser</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="ratio ratio-16x9">
+            <video id="teaser-video" controls>
+              <source src="assets/video/teaser.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </div>
